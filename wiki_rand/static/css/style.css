@@ -1,0 +1,55 @@
+body {
+    background-color: #EFF6E0;
+    font-family: sans-serif;
+}
+
+#titles {
+    padding: 15px 0px;
+    text-align: center;
+    background-color: #aec3b0;
+}
+
+div.form{
+    display: block;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+input.form-input {
+    height: 20px;
+}
+
+input.form-submit-button {
+    background: #598392;
+    border-style: outset;
+    border-color: #598392;
+    height: 40px;
+    width: 80px;
+    font: bold 15px arial;
+    text-shadow: none;
+}
+
+input.form-submit-button:hover {
+    background: #124559;
+    border-style: outset;
+    border-color: #124559;
+    height: 40px;
+    width: 80px;
+    font: bold 15px arial;
+    text-shadow: none;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+a {
+    color:  #01161E;
+}
+
+a:visited {
+    color: blue;
+}
