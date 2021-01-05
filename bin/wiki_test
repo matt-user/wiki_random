@@ -1,0 +1,12 @@
+#!/bin/bash
+# wiki_test
+
+# Stop on errors
+# See https://vaneyckt.io/posts/safer_bash_scripts_with_set_euxo_pipefail/
+set -Eeuo pipefail
+set -x
+
+# Style checking 
+pycodestyle wiki_rand
+pydocstyle wiki_rand
+pylint --disable=cyclic-import wiki_rand

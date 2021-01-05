@@ -1,4 +1,4 @@
-"""Wiki App package initializer"""
+"""Wiki App package initializer."""
 import flask
 
 # app is a single object used by all the code modules in this package
@@ -16,4 +16,4 @@ app.config.from_envvar('WIKI_RAND_SETTINGS', silent=True)
 # circular import, but flask was designed that way.
 # (Reference http://flask.pocoo.org/docs/patterns/packages/)  We're
 # going to tell pylint and pycodestyle to ignore this coding style violation.
-import wiki_rand.views
+import wiki_rand.views  # noqa:  E402 pylint: disable=wrong-import-position
